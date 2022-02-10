@@ -174,12 +174,12 @@ menu[role="tablist"] button[aria-selected="true"] {
 }
 
 .help-button {
-  background-image: url("/image/help.png");
+  background-image: url("./image/help.png");
   background-size: contain;
 }
 
 .close-button {
-  background-image: url("/image/close.svg");
+  background-image: url("./image/close.svg");
   background-size: contain;
 }
 
