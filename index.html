@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="box-container">
+      <div class="header-container">
+        <div class="title">Paragraph</div>
+        <div class="title-buttons">
+          <button type="button" class="help-button title-bar-btn"></button>
+          <button type="button" class="close-button title-bar-btn"></button>
+        </div>
+      </div>
+      <div class="body-container">
+        <div class="tab-section">
+          <menu role="tablist" aria-label="Sample Tabs">
+            <button role="tab" aria-selected="true" aria-controls="tab-A">Indents and Spacing</button>
+            <button role="tab" aria-controls="tab-B">Line and Page Breaks</button>
+
+
+          </menu>
+          <div class="article">
+            <div class="general">General</div>
+            <div class="alingment">
+              <label>Ali<u>g</u>nment:</label>
+              <select accesskey="f" name="alignment" id="functions" class="alignment-option input-style">
+                <option value="Centered" aria-placeholder="Centered">Centered</option>
+                <option value="2">left</option>
+                <option value="3">right</option>
+              </select>
+              <label><u>O</u>utline:</label>
+              <select accesskey="f" name="Outline" id="Outline" class="outline-option input-style">
+                <option value="Body Text">Body Text</option>
+                <option value="Level1">Level1</option>
+                <option value="Level2">Level2</option>
+                <option value="Level3">Level3</option>
+                <option value="Level3">Level4</option>
+              </select>
+            </div>
+            <div class="Indention general">Indention</div>
+            <div class="indent-box">
+              <div class="left-box">
+                <div class="left-input "><label for="left">
+                    <p><u>L</u>eft:</p>
+                  </label>
+                  <input type="number" class="num-input" id="left" placeholder='0"' name="left" min="0" max="5">
+                </div>
+                <div class="right-input"><label for="right">
+                    <p><u>R</u>ight:</p>
+                  </label>
+                  <input type="number" id="left" class="num-input" placeholder='0"'name="left" min="0" max="5">
+                </div>
+              </div>
+              <div class="right-box">
+                <div class="special-input">
+                  <label for="special">
+                    <p><u>S</u>pecial:</p>
+                  </label>
+                  <select accesskey="f" name="special" id="special" class="special-option input-style">
+                    <option value="1">(none)</option>
+                    <option value="2">one value</option>
+                    <option value="3">Two value</option>
+                  </select>
+                </div>
+                <div class="by-input">
+                  <label for="By">
+                    <p><u>B</u>y:</p>
+                  </label>
+                  <input type="number" id="By" class="num-input" name="By" min="0" max="5">
+                </div>
+              </div>
+            </div>
+            <div class="Indention general">Indention</div>
+            <div>
+              <div class="spacing-box">
+                <div class="left-box">
+                  <div class="left-input"><label for="left">
+                      <p><u>B</u>efore:</p>
+                    </label>
+                    <input type="number" class="num-input" id="left" name="left" min="0" max="5" placeholder="18pt">
+                  </div>
+                  <div class="right-input"><label for="right">
+                      <p><u>A</u>fter:</p>
+                    </label>
+                    <input type="number" id="left" class="num-input" name="left" min="0" max="5" placeholder='0pt'>
+                  </div>
+                </div>
+                <div class="right-box">
+                  <div class="special-input">
+                    <label for="special">
+                      <p>Li<u>n</u>e spacing:</p>
+                    </label>
+                    <select accesskey="f" name="Line-spacing" id="Line-spacing" class="Line-option input-style">
+                      <option value="1">Single</option>
+                      <option value="2">one value</option>
+                      <option value="3">Two value</option>
+                    </select>
+                  </div>
+                  <div class="by-input">
+                    <label for="By">
+                      <p><u>A</u>t:</p>
+                    </label>
+                    <input type="number" id="By" class="num-input" name="By" min="0" max="5">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="check_box" disabled="true">
+              <label for="check_box" class="check-box-label">Don't add space between Paragraph of the same style</label>
+            </div>
+            <div class="general">Preview</div>
+            <div class="textarea-box">
+              <textarea rows="7" cols="65"></textarea>
+            </div>
+          </div>
+          <div class="footer-btn">
+            <div class="left-btn-grp">
+              <button type="button" class="btn">Tabs</button>
+            </div>
+            <div class="right-btn-grp">
+              <button type="button" class="btn">OK</button>
+              <button type="button" class="btn">Cancel</button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+  
+</body>
+</html>
