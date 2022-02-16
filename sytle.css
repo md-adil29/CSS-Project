@@ -16,7 +16,7 @@
 
 .box-container {
   height: 600px;
-  width: 550px;
+  width: 500px;
   background-color: aliceblue;
   border-radius: 10px 10px 0 0;
 }
@@ -79,14 +79,6 @@
   box-shadow: inset 0 2px #ffc73c;
 }
 
-/* menu[role=tablist] button {
-z-index: 1;
-display: block;
-color: #222;
-text-decoration: none;
-min-width: unset;
-} */
-
 menu[role="tablist"] button {
   background: linear-gradient(180deg, #fff, #fafaf9 26%, #f0f0ea 95%, #ecebe5);
   margin-left: -1px;
@@ -132,7 +124,7 @@ menu[role="tablist"] button[aria-selected="true"] {
 .input-style {
   width: 80px;
   border: 1px solid #7f9db9;
-  padding: 3px 5px 3px 5px;
+  padding: 3px 5px 3px 0px;
   background-repeat: no-repeat;
 }
 
@@ -147,7 +139,7 @@ menu[role="tablist"] button[aria-selected="true"] {
 .alingment {
   display: flex;
   justify-content: space-between;
-  padding: 5px 3px 20px 10px;
+  padding: 0px 3px 20px 10px;
 }
 
 .box1 {
@@ -165,6 +157,8 @@ menu[role="tablist"] button[aria-selected="true"] {
 .textarea {
   display: flex;
   padding: 0px 30px;
+  resize: none;
+  margin-left: 10px;
 }
 
 .footer {
@@ -218,7 +212,7 @@ menu[role="tablist"] button[aria-selected="true"] {
 .left-input {
   justify-content: space-between;
   display: flex;
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .right-input {
@@ -229,6 +223,7 @@ menu[role="tablist"] button[aria-selected="true"] {
 .num-input {
   width: 80px;
   color: #000;
+  height: 23px;
 }
 
 .footer-btn {
@@ -245,7 +240,6 @@ menu[role="tablist"] button[aria-selected="true"] {
   border-radius: 3px;
   height: 25px;
 }
-
 .btn:active {
   background: linear-gradient(
     180deg,
@@ -264,8 +258,8 @@ menu[role="tablist"] button[aria-selected="true"] {
 }
 
 .btn:hover {
-  box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px blue,
-    inset 2px -2px blue;
+  box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea,
+    inset -2px 2px #f5f6f8, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
 }
 .alignment-option {
   width: 20%;
