@@ -58,6 +58,7 @@
   border-radius: 3px;
   height: 25px;
   width: 25px;
+  margin-left: -3px;
   border: none;
   background-color: red;
 }
@@ -82,7 +83,7 @@
 menu[role="tablist"] button {
   background: linear-gradient(180deg, #fff, #fafaf9 26%, #f0f0ea 95%, #ecebe5);
   margin-left: -1px;
-  margin-right: 2px;
+  margin-right: -3px;
   border-radius: 0;
   border-color: #91a7b4;
   border-top-right-radius: 3px;
@@ -251,17 +252,17 @@ menu[role="tablist"] button[aria-selected="true"] {
 }
 
 .btn:focus {
-  outline: 1px dotted #000;
   outline-offset: -4px;
-  box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea,
-    inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
+  box-shadow: inset -1px 1px #7492c2, inset 1px 2px #98b8ea,
+    inset -2px 2px #4f6f9b, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
 }
 
 .btn:hover {
-  box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea,
-    inset -2px 2px #f5f6f8, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
+  box-shadow: inset -1px 1px #98b8ea, inset 1px 2px #98b8ea,
+    inset -2px 2px #789eeb, inset 1px -1px #89ade4, inset 2px -2px #85afee;
 }
 .alignment-option {
+  appearance: none;
   width: 20%;
   background-size: 18px;
   background-image: url("./image/dropdown.svg");
@@ -271,6 +272,7 @@ menu[role="tablist"] button[aria-selected="true"] {
   background-image: url("./image/dropdown_hover.svg");
 }
 .outline-option {
+  appearance: none;
   width: 20%;
   background-size: 18px;
   background-image: url("./image/dropdown.svg");
@@ -280,6 +282,7 @@ menu[role="tablist"] button[aria-selected="true"] {
   background-image: url("./image/dropdown_hover.svg");
 }
 .special-option {
+  appearance: none;
   background-size: 18px;
   background-image: url("./image/dropdown.svg");
   background-position: top 1px right 1px;
@@ -288,6 +291,7 @@ menu[role="tablist"] button[aria-selected="true"] {
   background-image: url("./image/dropdown_hover.svg");
 }
 .Line-option {
+  appearance: none;
   background-size: 18px;
   background-image: url("./image/dropdown.svg");
   background-position: top 1px right 1px;
