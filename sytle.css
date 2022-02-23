@@ -107,10 +107,12 @@ menu[role="tablist"] button[aria-selected="true"] {
   clear: both;
   background: linear-gradient(180deg, #fcfcfe, #f4f3ee);
   border: 1px solid #919b9c;
-  border-top-color: white;
+  /* border-top-color: white; */
   position: relative;
   z-index: 2;
   margin-bottom: 9px;
+  margin-top: -2px;
+  position: static;
 }
 
 .general {
@@ -297,4 +299,9 @@ menu[role="tablist"] button[aria-selected="true"] {
 }
 .Line-option:hover {
   background-image: url("./image/dropdown_hover.svg");
+}
+
+#line {
+  border: 1px solid #919b9c;
+  padding-bottom: 2px;
 }
