@@ -82,8 +82,8 @@
 
 menu[role="tablist"] button {
   background: linear-gradient(180deg, #fff, #fafaf9 26%, #f0f0ea 95%, #ecebe5);
-  margin-left: -1px;
-  margin-right: -3px;
+  margin-left: 0px;
+  margin-right: -6px;
   border-radius: 0;
   border-color: #91a7b4;
   border-top-right-radius: 3px;
@@ -118,13 +118,12 @@ menu[role="tablist"] button[aria-selected="true"] {
   justify-content: space-between;
   padding: 3px;
   color: blue;
-  
 }
 
 .input-style {
   width: 80px;
   border: 1px solid #7f9db9;
-  padding: 3px 5px 3px 0px;
+  padding: 3px 5px 3px 3px;
   background-repeat: no-repeat;
 }
 
@@ -224,6 +223,7 @@ menu[role="tablist"] button[aria-selected="true"] {
   width: 80px;
   color: #000;
   height: 23px;
+  padding-left: 3px;
 }
 
 .footer-btn {
@@ -234,7 +234,7 @@ menu[role="tablist"] button[aria-selected="true"] {
 .btn {
   padding: 2px;
   width: 80px;
-  font-size: 11px;
+  font-size: 14px;
   border: 1px solid #003c74;
   background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
   border-radius: 3px;
